@@ -1,3 +1,8 @@
 ---
 layout: default
 ---
+
+{% for post in site.posts reverse %}
+%li
+  %a{href: "{{ post.url }}", alt: "{{ post.title }}", title: "{{ post.title }}"}{{ post.title }}
+{% endfor %}
