@@ -4,5 +4,6 @@ layout: default
 
 {% for post in site.posts reverse %}
 %li
+  %span {{ post.date | date: "%B %e, %Y" }}
   %a{href: "{{ post.url }}", alt: "{{ post.title }}", title: "{{ post.title }}"}{{ post.title }}
 {% endfor %}
