@@ -14,7 +14,13 @@ module Jekyll
 
     def convert(content)
       engine = Haml::Engine.new(content)
-      engine.render
+      begin
+        engine.render
+      rescue SyntaxError => e
+        puts e
+        puts 'Hint:'
+        puts "#{content[0..72]}"
+      end
     end
   end
 
@@ -23,7 +29,7 @@ module Jekyll
     safe true
     priority :low
 
-     def matches(ext)
+    def matches(ext)
       ext =~ /sass/i
     end
 
@@ -33,7 +39,13 @@ module Jekyll
 
     def convert(content)
       engine = Sass::Engine.new(content)
-      engine.render
+      begin
+        engine.render
+      rescue SyntaxError => e
+        puts e
+        puts 'Hint:'
+        puts "#{content[0..72]}"
+      end
     end
   end
 end
