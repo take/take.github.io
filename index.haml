@@ -2,8 +2,24 @@
 layout: default
 ---
 
-{% for post in site.posts reverse %}
-%li
-  %span {{ post.date | date: "%B %e, %Y" }}
-  %a{href: "{{ post.url }}", alt: "{{ post.title }}", title: "{{ post.title }}"}{{ post.title }}
-{% endfor %}
+%ul.list
+  {% for post in site.posts reverse %}
+
+  {% capture date %}{{ post.date }}{% endcapture %}
+  {% capture this_year %}{{ date | date: "%Y" }}{% endcapture %}
+
+  {% unless year == this_year %}
+  {% assign year = this_year %}
+
+  {% unless forloop.first %}
+  </section>
+  {% endunless %}
+
+  <section>
+  %h1 {{ date | date: "%Y" }}
+  {% endunless %}
+
+  %li
+    %span {{ post.date | date: "%B %e" }}
+    %a{href: "{{ post.url }}", alt: "{{ post.title }}", title: "{{ post.title }}"}{{ post.title }}
+  {% endfor %}
