@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica; }
+  font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif; }
 
 a {
   color: #333333;
@@ -14,6 +14,8 @@ a:hover, a:focus {
   width: 800px;
   margin: 0 auto; }
 
+.list h1 {
+  padding: 0 5px; }
 .list li {
   list-style-type: none;
   padding: 6px 5px;
