@@ -6,7 +6,7 @@ comments: true
 categories: Apple
 ---
 
-![](/images/iphone-packets/iphone_cases.jpeg)
+![](/assets/image/iphone-packets/iphone_cases.jpeg)
 
 I was cleaning my room, and found my 3GS packet and 4S packet and 5 packet.
 
