@@ -8,17 +8,15 @@ categories: Ruby
 
 When we're using Ruby, we often use blocks. Like the code below.
 
-``` ruby wtf.rb
-nums = [1, 2, 3, 4]
+    nums = [1, 2, 3, 4]
 
-nums.collect! do |n|
-  n ** 2
-end
+    nums.collect! do |n|
+      n ** 2
+    end
 
-puts nums.inspect # => [1, 4, 9, 16]
-```
+    puts nums.inspect # => [1, 4, 9, 16]
 
-For a Ruby newbie like me, this was like <i class="icon-wtf"></i>
+For a Ruby newbie like me, this was like wtf.
 
 I used to be a PHPer, well not a good PHPer.
 So the block concept was really new for me.

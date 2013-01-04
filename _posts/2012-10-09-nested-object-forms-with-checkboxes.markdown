@@ -31,34 +31,28 @@ Lets say we have article table and category table, And we want to register multi
 
 the models will be like the below
 
-``` ruby article.rb
-class Article < ActiveRecord::Base
-  attr_accessible :articles_categories_attributes
+    class Article < ActiveRecord::Base
+      attr_accessible :articles_categories_attributes
 
-  has_many :categories, :through => :articles_categories
-  has_many :articles_categories, :dependent => :destroy
+      has_many :categories, :through => :articles_categories
+      has_many :articles_categories, :dependent => :destroy
 
-  accepts_nested_attributes_for :articles_categories, :allow_destroy => true
-end
-```
+      accepts_nested_attributes_for :articles_categories, :allow_destroy => true
+    end
 
-``` ruby articles_category.rb
-class ArticlesCategory < ActiveRecord::Base
-  attr_accessible :article_id, :category_id
+    class ArticlesCategory < ActiveRecord::Base
+      attr_accessible :article_id, :category_id
 
-  belongs_to :article
-  belongs_to :category
-end
-```
+      belongs_to :article
+      belongs_to :category
+    end
 
-``` ruby category.rb
-class Category < ActiveRecord::Base
-  attr_accessible :name
+    class Category < ActiveRecord::Base
+      attr_accessible :name
 
-  has_many :articles, :through => :articles_categories
-  has_many :articles_categories, :dependent => :destroy
-end
-```
+      has_many :articles, :through => :articles_categories
+      has_many :articles_categories, :dependent => :destroy
+    end
 
 
 
@@ -68,34 +62,30 @@ this is the part which is different from normal nested object forms
 
 **view**
 
-``` erb _form.html.erb
-<% Category.all.each do |category| %>
+    <% Category.all.each do |category| %>
 
-  <% check_flag = @article.articles_categories.any? { |articles_category| articles_category.category_id == category.id } %>
+      <% check_flag = @article.articles_categories.any? { |articles_category| articles_category.category_id == category.id } %>
 
-  <%= check_box_tag "article[articles_categories_attributes][][category_id]", category.id, check_flag %>
-  <%= category.name %>
-<% end %>
-```
+      <%= check_box_tag "article[articles_categories_attributes][][category_id]", category.id, check_flag %>
+      <%= category.name %>
+    <% end %>
 
 basically you can't use fields_for, so you have to write it like this.
 
 
 **update method**
 
-``` ruby articles_controller.rb
-def update
-  ArticlesCategory.transaction do
-    @article = Article.find(params[:id], :lock => true)
-    @article.articles_categories.clear
-    @article.update_attributes!(params[:interview_article])
-  end
-    flash[:notice] = 'Article was successfully updated.'
-    redirect_to :action => 'index'
-  rescue ActiveRecord::RecordInvalid
-    render :action => 'edit'
-end
-```
+    def update
+      ArticlesCategory.transaction do
+        @article = Article.find(params[:id], :lock => true)
+        @article.articles_categories.clear
+        @article.update_attributes!(params[:interview_article])
+      end
+        flash[:notice] = 'Article was successfully updated.'
+        redirect_to :action => 'index'
+      rescue ActiveRecord::RecordInvalid
+        render :action => 'edit'
+    end
 
 If we don't do this, the checkbox which has been turned off wont be deleted properly.
 
