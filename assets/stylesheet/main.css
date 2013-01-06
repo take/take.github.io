@@ -14,25 +14,61 @@ a a:visited {
 }
 
 /* line 12, sass/main.sass */
+h1 {
+  font-size: 2em;
+}
+
+/* line 15, sass/main.sass */
+h2 {
+  font-size: 1.8em;
+}
+
+/* line 18, sass/main.sass */
+h3 {
+  font-size: 1.5em;
+}
+
+/* line 21, sass/main.sass */
+h4 {
+  font-size: 1.3em;
+}
+
+/* line 24, sass/main.sass */
+h5 {
+  font-size: 1.1em;
+}
+
+/* line 27, sass/main.sass */
 a:hover, a:focus {
   color: black;
 }
 
-/* line 15, sass/main.sass */
+/* line 30, sass/main.sass */
+.header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* line 33, sass/main.sass */
+.header h1 {
+  margin: 0;
+  float: left;
+}
+
+/* line 37, sass/main.sass */
 .list {
   margin-bottom: 10px;
 }
-/* line 17, sass/main.sass */
+/* line 39, sass/main.sass */
 .list h1 {
   margin-bottom: 7px;
 }
-/* line 19, sass/main.sass */
+/* line 41, sass/main.sass */
 .list li {
   padding: 6px 3px;
   margin: 5px 0;
   border-bottom: 1px solid #eeeeee;
 }
-/* line 23, sass/main.sass */
+/* line 45, sass/main.sass */
 .list li span {
   float: right;
   color: #999999;
