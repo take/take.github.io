@@ -8,13 +8,16 @@ categories: Ruby
 
 When we're using Ruby, we often use blocks. Like the code below.
 
-    nums = [1, 2, 3, 4]
+{% highlight ruby %}
+nums = [1, 2, 3, 4]
 
-    nums.collect! do |n|
-      n ** 2
-    end
+nums.collect! do |n|
+  n ** 2
+end
 
-    puts nums.inspect # => [1, 4, 9, 16]
+puts nums.inspect # => [1, 4, 9, 16]
+{% endhighlight %}
+
 
 For a Ruby newbie like me, this was like wtf.
 

@@ -14,6 +14,8 @@ Like when I was using `current_page?` view helper, I wanted to check the code of
 
 When u write `method(:current_page?).source_location`, you'll get where the function is defined like below.
 
-`["/Users/Takehiro/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/helpers/url_helper.rb", 588]`
+{% highlight %}
+["/Users/Takehiro/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/helpers/url_helper.rb", 588]
+{% endhighlight %}
 
 Pretty useful.
