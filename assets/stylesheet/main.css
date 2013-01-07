@@ -95,4 +95,5 @@ a:hover, a:focus {
   border-radius: 4px;
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   font-size: 80%;
+  overflow: auto;
 }
