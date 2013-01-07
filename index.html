@@ -1,26 +1,21 @@
-= "---"
-= "layout: default"
-= "---"
-
+---
+layout: default
+---
 {% for post in site.posts reverse %}
-
 {% capture date %}{{ post.date }}{% endcapture %}
 {% capture this_year %}{{ date | date: "%Y" }}{% endcapture %}
-
 {% unless year == this_year %}
 {% assign year = this_year %}
-
 {% unless forloop.first %}
 </ul>
 </section>
 {% endunless %}
-
 <section>
 <ul class="list">
-%h2 {{ date | date: "%Y" }}
+<h2>{{ date | date: "%Y" }}</h2>
 {% endunless %}
-
-%li
-  %span {{ post.date | date: "%B %e" }}
-  %a{href: "{{ post.url }}", alt: "{{ post.title }}", title: "{{ post.title }}"}{{ post.title }}
+<li>
+  <span>{{ post.date | date: "%B %e" }}</span>
+  <a alt='{{ post.title }}' href='{{ post.url }}' title='{{ post.title }}'>{{ post.title }}</a>
+</li>
 {% endfor %}
