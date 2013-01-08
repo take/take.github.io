@@ -106,7 +106,9 @@ end
 
 If you want to change the values inside the article_bodies, you can do it by writing like this.
 
+{% highlight ruby %}
 `params['article_bodies_attributes'][0]['subtitle'] = 'bar'`
+{% endhighlight %}
 
 ### 3. and finnaly, execute the update method.
 
