@@ -53,22 +53,32 @@ a:hover, a:focus {
   margin: 0;
   float: left;
 }
+/* line 36, sass/main.sass */
+.header ul {
+  float: left;
+  margin: 0;
+  padding: 20px 0px 9px 20px;
+}
+/* line 40, sass/main.sass */
+.header ul li {
+  display: inline;
+}
 
-/* line 37, sass/main.sass */
+/* line 43, sass/main.sass */
 .list {
   margin-bottom: 10px;
 }
-/* line 39, sass/main.sass */
+/* line 45, sass/main.sass */
 .list h1 {
   margin-bottom: 7px;
 }
-/* line 41, sass/main.sass */
+/* line 47, sass/main.sass */
 .list li {
   padding: 6px 3px;
   margin: 5px 0;
   border-bottom: 1px solid #eeeeee;
 }
-/* line 45, sass/main.sass */
+/* line 51, sass/main.sass */
 .list li span {
   float: right;
   color: #999999;
@@ -76,23 +86,23 @@ a:hover, a:focus {
   font-size: 12px;
 }
 
-/* line 52, sass/main.sass */
+/* line 58, sass/main.sass */
 .post_content a {
   text-decoration: underline;
 }
 
-/* line 56, sass/main.sass */
+/* line 62, sass/main.sass */
 .tweet_article img {
   margin-top: 3px;
   width: 10px;
   height: 10px;
 }
 
-/* line 62, sass/main.sass */
+/* line 68, sass/main.sass */
 .highlight {
   margin: 10px 0;
 }
-/* line 64, sass/main.sass */
+/* line 70, sass/main.sass */
 .highlight pre {
   background-color: #f8f8f8;
   padding: 7px 12px;
