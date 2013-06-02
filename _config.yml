@@ -1,3 +1,4 @@
 markdown: rdiscount
 permalink: /:title
 pygments: true
+exclude: ['Rakefile', 'README.md', 'config.rb']
