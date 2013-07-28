@@ -56,11 +56,11 @@ a:hover, a:focus {
 /* line 36, sass/main.sass */
 .header ul {
   float: left;
-  margin: 0;
-  padding: 20px 0px 9px 20px;
+  margin: 20px 0px 9px 20px;
 }
-/* line 40, sass/main.sass */
+/* line 39, sass/main.sass */
 .header ul li {
+  margin-right: 20px;
   display: inline;
 }
 
