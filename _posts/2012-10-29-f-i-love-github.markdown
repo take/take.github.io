@@ -2,7 +2,6 @@
 layout: post
 title: "F I love github"
 date: 2012-10-29 17:56
-comments: true
 categories: github
 ---
 
@@ -25,6 +24,6 @@ When your in a situation like that, just press `t`
 
 The file finder mode comes up and you'll be able to search the hole repo.
 
-![](/assets/image/f-i-love-github/file_finder_mode_in_github.png)
+![](/images/f-i-love-github/file_finder_mode_in_github.png)
 
 F I love github.

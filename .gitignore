@@ -1,7 +1,1 @@
-*~
-*.swp
-.DS_Store
 _site/
-_drafts/
-.sass-cache/
-_plugins/

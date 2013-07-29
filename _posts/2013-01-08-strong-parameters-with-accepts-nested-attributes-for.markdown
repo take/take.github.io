@@ -2,8 +2,9 @@
 layout: post
 title: "Strong Parameters with accepts_nested_attributes_for"
 date: 2013-01-08 17:33
-comments: true
 categories: Rails
+disqus: y
+share: y
 ---
 
 In Rails4, there will be a feature called "strong parameters" included in default.
