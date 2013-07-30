@@ -2,7 +2,6 @@
 layout: post
 title: "Metaprogramming"
 date: 2013-01-03 20:13
-comments: true
 categories: programming
 ---
 

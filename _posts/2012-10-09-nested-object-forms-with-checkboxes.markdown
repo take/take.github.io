@@ -3,7 +3,6 @@ layout: post
 title: "nested object forms with checkbox"
 description: ""
 categories: Rails
-tags: []
 ---
 versions: rails 3.2.8, ruby 1.9.4
 
@@ -17,7 +16,7 @@ There's an good tutorial in railscast.com, [#196 Nested Model Form Part 1](http:
 
 I wanted to create an nested object forms using checkboxes just like the below image.
 
-![check_boxes](/assets/image/nested-object-forms-with-checkboxes/checkboxes.png)
+![check_boxes](/images/nested-object-forms-with-checkboxes/checkboxes.png)
 
 
 This needs a little twist, if you understand the nested object forms you'll know why.

@@ -2,7 +2,6 @@
 layout: post
 title: "Using factory girl and making mass assignment params"
 date: 2012-10-23 13:19
-comments: true
 categories: Rails
 ---
 
