@@ -3,7 +3,9 @@ layout: page
 title: About
 ---
 
-![](/images/about/takehiro_adachi.jpg)
+<center>
+  <img src="/images/about/takehiro_adachi.jpg" style="margin-bottom: 46px;" />
+</center>
 
 Hi, I'm a freelance software engineer living in Japan. I'm also a [contributer of Rails](http://contributors.rubyonrails.org/contributors/takehiro-adachi/commits), and maintainer of [http://www.ruby-lang.org/]().
 
