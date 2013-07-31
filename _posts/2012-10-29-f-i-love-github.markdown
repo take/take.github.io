@@ -3,6 +3,8 @@ layout: post
 title: "F I love github"
 date: 2012-10-29 17:56
 categories: github
+disqus: y
+share: y
 ---
 
 We allways wander around github right.

@@ -4,6 +4,8 @@ title: "iPhone packets"
 date: 2012-10-21 03:57
 comments: true
 categories: Apple
+disqus: y
+share: y
 ---
 
 ![](/images/iphone-packets/iphone_cases.jpeg)

@@ -3,6 +3,8 @@ layout: post
 title: "Using factory girl and making mass assignment params"
 date: 2012-10-23 13:19
 categories: Rails
+disqus: y
+share: y
 ---
 
 versions: factory_girl_rails: 4.1.0, rails: 3.2.8, rspec: 2.11.0

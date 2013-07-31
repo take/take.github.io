@@ -3,6 +3,8 @@ layout: post
 title: "Metaprogramming"
 date: 2013-01-03 20:13
 categories: programming
+disqus: y
+share: y
 ---
 
 Recently, I've been studying metaprogramming.

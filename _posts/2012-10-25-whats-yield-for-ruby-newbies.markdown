@@ -3,6 +3,8 @@ layout: post
 title: "What's yield?(for ruby newbies)"
 date: 2012-10-25 21:20
 categories: Ruby
+disqus: y
+share: y
 ---
 
 When we're using Ruby, we often use blocks. Like the code below.

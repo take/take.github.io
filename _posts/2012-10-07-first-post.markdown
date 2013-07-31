@@ -4,7 +4,10 @@ title: "first post"
 description: ""
 category: 
 tags: []
+disqus: y
+share: y
 ---
+
 Hi, this is the first post of my blog.
 
 You can read the [About me](/About) to know what kind of person I am.

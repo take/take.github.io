@@ -3,6 +3,8 @@ layout: post
 title: "nested object forms with checkbox"
 description: ""
 categories: Rails
+disqus: y
+share: y
 ---
 versions: rails 3.2.8, ruby 1.9.4
 

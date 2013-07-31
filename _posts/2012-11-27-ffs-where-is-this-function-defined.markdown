@@ -3,6 +3,8 @@ layout: post
 title: "Ffs where is this function defined?"
 date: 2012-11-27 15:05
 categories: Rails
+disqus: y
+share: y
 ---
 
 versions: Ruby 1.9.3

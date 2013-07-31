@@ -3,6 +3,8 @@ layout: post
 title: "Joined the www.ruby-lang.org translation team"
 date: 2013-06-02 20:59
 categories: Ruby
+disqus: y
+share: y
 ---
 
 [@hsbt](https://github.com/hsbt) was [asking for some volunteers](https://twitter.com/hsbt/status/340288026263576577) for the i18n maintainer of www.ruby-lang.org, I gave a shot and here I am in the [translation team](https://github.com/ruby/www.ruby-lang.org/wiki/Team) :P.
