@@ -2,7 +2,7 @@
 layout: post
 title: "Ffs where is this function defined?"
 date: 2012-11-27 15:05
-categories: Rails
+tags: Rails
 disqus: y
 share: y
 ---

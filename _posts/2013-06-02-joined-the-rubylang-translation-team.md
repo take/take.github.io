@@ -2,7 +2,7 @@
 layout: post
 title: "Joined the www.ruby-lang.org translation team"
 date: 2013-06-02 20:59
-categories: Ruby
+tags: Ruby
 disqus: y
 share: y
 ---

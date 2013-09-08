@@ -2,7 +2,7 @@
 layout: post
 title: "nested object forms with checkbox"
 description: ""
-categories: Rails
+tags: Rails
 disqus: y
 share: y
 ---

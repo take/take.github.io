@@ -2,7 +2,6 @@
 layout: post
 title: "first post"
 description: ""
-category: 
 tags: []
 disqus: y
 share: y

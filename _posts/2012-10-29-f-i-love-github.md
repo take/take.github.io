@@ -2,7 +2,7 @@
 layout: post
 title: "F I love github"
 date: 2012-10-29 17:56
-categories: github
+tags: github
 disqus: y
 share: y
 ---

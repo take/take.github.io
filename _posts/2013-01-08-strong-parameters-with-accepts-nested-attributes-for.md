@@ -2,7 +2,7 @@
 layout: post
 title: "Strong Parameters with accepts_nested_attributes_for"
 date: 2013-01-08 17:33
-categories: Rails
+tags: Rails
 disqus: y
 share: y
 ---
