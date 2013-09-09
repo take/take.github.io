@@ -14,5 +14,5 @@ The following directories and their contents are Copyright Takehiro Adachi.
 * talks/
 * about/
 
-Most of the other code/assets are from the [scribble](https://github.com/muan/scribble) theme, and also check
-the [LICENSE for that](SCRIBBLE_THEME_LICENSE).
+Most of the other code/assets are from the [scribble](https://github.com/muan/scribble) theme, check
+the [LICENSE for that](SCRIBBLE_THEME_LICENSE) too.
