@@ -13,7 +13,7 @@ I write Ruby/JavaScript/CoffeeScript/Objective-C
 
 ---
 
-### I currently/used work for
+### I work(ed) for
 
 - [GEEKS Inc.,](http://www.geeks.ne.jp/)(08/2011~04/2012)
 - [Campus Inc.,](http://campus-inc.org/)(02/2012~01/2013)
