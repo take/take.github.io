@@ -76,7 +76,7 @@ TEDのインタビューでイーロン・マスクが[出ている回](http://w
 からだと思う。
 
 
-最後に以下関係のありそうなツイートやポストを貼っておく
+最後に関係のありそうなツイートやポストを貼っておく
 
 <blockquote class="twitter-tweet" align="center"><p>数学は人間の想像力では絶対に及ばない限界を突破して思考するための道具だっていう前提をもっと早い段階で納得できればいいんだろうけど <a href="http://t.co/b0n2DjpXOL">http://t.co/b0n2DjpXOL</a></p>&mdash; Naoya Ito (@naoya_ito) <a href="https://twitter.com/naoya_ito/statuses/365660177480957952">August 9, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
