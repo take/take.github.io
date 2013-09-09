@@ -11,6 +11,8 @@ links:
     url:          /about
   - name:         Talks
     url:          /talks
+  - name:         Ja Posts
+    url:          /ja
   - name:         Email
     url:          mailto:takehiro0740@gmail.com
     external:     true
