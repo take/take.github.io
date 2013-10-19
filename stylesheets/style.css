@@ -341,3 +341,11 @@ code {
   margin-left: -340px; }
 .paging .right {
   margin-left: 320px; }
+
+iframe.twitter-share-button {
+  width: 105px!important;
+}
+
+iframe.hatena-bookmark-button-frame {
+  margin-left: 33px;
+}
