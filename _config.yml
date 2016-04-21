@@ -26,3 +26,4 @@ links:
 rouge:         true
 permalink:        /:categories/:title
 markdown:         kramdown
+future: true
