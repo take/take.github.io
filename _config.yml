@@ -23,6 +23,6 @@ links:
     url:          https://twitter.com/takehiro0740
     external:     true
 
-highlighter:         true
+rouge:         true
 permalink:        /:categories/:title
 markdown:         kramdown
