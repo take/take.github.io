@@ -23,8 +23,6 @@ links:
     url:          https://twitter.com/takehiro0740
     external:     true
 
-pygments:         true
+highlighter:         true
 permalink:        /:categories/:title
 markdown:         kramdown
-rdiscount:
-  extensions:     [smart]
